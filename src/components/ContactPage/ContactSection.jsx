@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const ContactSection = () => {
   return (
-    <section className="py-16 px-5 bg-gray-50">
+    <section className="py-16 px-3 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1a237e] mb-12">
           Contact Us
