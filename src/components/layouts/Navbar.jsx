@@ -8,11 +8,10 @@ const Navbar = () => {
   // Define navigation links with paths for better routing
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Loans", path: "/loans" },
+    { name: "Loans Services", path: "/loans" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
     { name: "Terms & Conditions", path: "/terms-and-conditions" },
-    { name: "Loan Services", path: "/loan-services" },
   ];
 
   return (
