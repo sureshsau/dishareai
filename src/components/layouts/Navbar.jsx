@@ -24,7 +24,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-10 h-10 rounded-full"
           />
-          <span className="font-bold text-2xl text-blue-600">DISHAREAI</span>
+          <span className="font-bold text-2xl text-blue-800">DISHAREAI</span>
         </div>
 
         {/* Desktop Menu */}
