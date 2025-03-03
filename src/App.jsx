@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage'
 import PageNotFound from './pages/PageNotFound'
 import TermsPage from './pages/TermsPage'
 import LoanPage from './pages/LoanPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path='/about' element={<AboutPage/>}/>
       <Route path='/terms-and-conditions' element={<TermsPage/>}/>
     <Route path='/loans' element={<LoanPage/>}/>
+    <Route  path='/contact' element={<ContactPage/>}/>
 
 
       <Route path='*' element={<PageNotFound/>}/>
