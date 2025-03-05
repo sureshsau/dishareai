@@ -16,9 +16,7 @@ const Banner = () => {
         <h1 className="text-white text-2xl md:text-4xl font-bold mb-4">
           Empowering Dreams Through Financial Support
         </h1>
-        <p className="text-white text-base md:text-xl mb-8 max-w-lg">
-          Secure, flexible loans tailored to your needs. Start your journey towards financial freedom today.
-        </p>
+        
       </div>
     </div>
   );

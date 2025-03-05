@@ -32,16 +32,17 @@ const AboutPage = () => {
               DISHAREAI WELFARE FOUNDATION
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            DISHAREAI WELFARE FOUNDATION is an online platform that provides customers with car loans,
-              bike loans, and all types of vehicle loans. We offer a one-stop
-              shop for all requirements, be it loans, investments, or protection.
-            </p>
+  DISHAREAI WELFARE FOUNDATION is a trusted platform that provides customers with high-quality pre-owned and refurbished mobile phones and laptops. 
+  We offer a reliable solution for those looking for budget-friendly technology, ensuring that all devices are thoroughly tested and certified. 
+  Our goal is to make affordable technology accessible to everyone while promoting sustainability through the reuse of electronic devices.
+</p>
+
 
             {/* Services Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
               {[ 
                 { icon: FaHeadset, title: "24X7 Support", text: "Our dedicated team is available around the clock to assist you with your financial needs." },
-                { icon: FaCheckCircle, title: "Quick Approval", text: "Experience swift loan approvals to meet your urgent financial requirements." },
+                
                 { icon: FaRedo, title: "Easy Repayment", text: "Flexible repayment options tailored to your financial convenience." },
                 { icon: FaLaptop, title: "Apply Online", text: "Seamless online application process from the comfort of your home." },
               ].map(({ icon: Icon, title, text }, index) => (

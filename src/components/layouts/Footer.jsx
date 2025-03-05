@@ -14,6 +14,7 @@ const navLinks = [
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
   { name: "Terms & Conditions", path: "/terms-and-conditions" },
+  {name:"Privacy Policy",path:"/privacy"},
   { name: "E-Mandate Cancellation & Refund Policy", path: "/refund" },
 ];
 

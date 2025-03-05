@@ -7,6 +7,7 @@ import PageNotFound from './pages/PageNotFound'
 import TermsPage from './pages/TermsPage'
 import ContactPage from './pages/ContactPage'
 import RefundPage from './pages/RefundPage'
+import PrivacyPolicy from './pages/PrivacyPage'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       <Route path='/terms-and-conditions' element={<TermsPage/>}/>
       <Route  path='/contact' element={<ContactPage/>}/>
       <Route path='/refund' element={<RefundPage/>}/>
-
+      <Route path='/privacy' element={<PrivacyPolicy/>}/>
 
       <Route path='*' element={<PageNotFound/>}/>
     </Routes>

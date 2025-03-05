@@ -11,7 +11,9 @@ const Navbar = () => {
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
     { name: "Terms & Conditions", path: "/terms-and-conditions" },
+    {name:"Privacy & Policy" ,path:"/privacy"    },
     {name:"Refund and Cancellation",path:"/refund"}
+    
   ];
 
   return (
