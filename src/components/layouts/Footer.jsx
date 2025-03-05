@@ -16,7 +16,7 @@ const Footer = () => {
         
         {/* 🌟 Company Info */}
         <div>
-          <h1 className="text-white text-3xl font-bold">DISHAREAI</h1>
+          <h1 className="text-white text-3xl font-bold">DISHAREAI WELFARE FOUNDATION</h1>
           <p className="mt-3 text-gray-400 text-sm">
             Empowering your financial growth with secure, accessible loan solutions.
           </p>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="space-y-3 text-sm">
             <div className="flex items-center justify-center md:justify-start space-x-3">
               <FaMapMarkerAlt className="text-yellow-400 text-lg" />
-              <span>Amsherpur, Arabpur, Nadia, 741122</span>
+              <span>Bagchi,Jamsherpur, Arabpur, Nadia, 741122</span>
             </div>
             <div className="flex items-center justify-center md:justify-start space-x-3">
               <FaPhoneAlt className="text-yellow-400 text-lg" />

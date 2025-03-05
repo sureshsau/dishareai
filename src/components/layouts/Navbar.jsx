@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-
+import logo from'../../assets/image/logo.jpeg'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,11 +20,11 @@ const Navbar = () => {
         {/* Logo & Title */}
         <div className="flex items-center gap-2">
           <img
-            src="https://content.jdmagicbox.com/comp/def_content/ngos/default-ngos-10.jpg"
+            src={logo}
             alt="Logo"
             className="w-10 h-10 rounded-full"
           />
-          <span className="font-bold text-2xl text-blue-800">DISHAREAI</span>
+          <span className="font-bold text-sm text-blue-800">DISHAREAI WELFARE FOUNDATION</span>
         </div>
 
         {/* Desktop Menu */}

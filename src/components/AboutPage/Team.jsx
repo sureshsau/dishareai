@@ -1,41 +1,22 @@
-import React from "react";
+import React from 'react'
 
-const Team = () => (
-  <section className="py-12">
-    <div className="max-w-5xl mx-auto px-4">
-      <h2 className="text-3xl font-bold text-[#1a237e] mb-4">Our Leadership</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {/* Replace these placeholders with actual team member data */}
-        <div className="text-center">
-          <img
-            src="https://via.placeholder.com/150"
-            alt="John Doe"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
-          <h3 className="text-xl font-bold text-gray-800">John Doe</h3>
-          <p className="text-gray-600">CEO & Founder</p>
-        </div>
-        <div className="text-center">
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Jane Smith"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
-          <h3 className="text-xl font-bold text-gray-800">Jane Smith</h3>
-          <p className="text-gray-600">Chief Financial Officer</p>
-        </div>
-        <div className="text-center">
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Michael Lee"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
-          />
-          <h3 className="text-xl font-bold text-gray-800">Michael Lee</h3>
-          <p className="text-gray-600">Operations Manager</p>
-        </div>
-      </div>
-    </div>
-  </section>
-);
+const Team = () => {
+  return (
+    <div className="bg-white rounded-lg shadow-lg p-8">
+              <h3 className="text-2xl font-bold text-[#1a237e] mb-6 text-center">
+                Meet Our Professional Team Members
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {teamMembers.map((member, index) => (
+                  <div key={index} className="flex flex-col items-center bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <img src={member.img} alt={member.name} className="w-24 h-24 rounded-full mb-4" />
+                    <h4 className="text-lg font-bold text-[#1a237e]">{member.name}</h4>
+                    <p className="text-gray-600">{member.role}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+  )
+}
 
-export default Team;
+export default Team

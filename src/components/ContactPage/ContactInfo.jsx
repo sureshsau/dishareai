@@ -19,7 +19,7 @@ const ContactInfo = () => {
       {/* Contact Details */}
       <div className="space-y-4 md:space-y-6">
         {[
-          { icon: FaMapMarkerAlt, text: "Jamsherpur, Arabpur, Nadia, 741122" },
+          { icon: FaMapMarkerAlt, text: "Bagchi , Jamsherpur, Arabpur, Nadia, 741122" },
           { icon: FaPhoneAlt, text: "+91 6294385793" },
           { icon: FaPhoneAlt, text: "+91 9429694155" },
           { icon: FaEnvelope, text: "dishareaiwelfarefoundation@gmail.com" },
