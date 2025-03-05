@@ -8,10 +8,10 @@ const Navbar = () => {
   // Define navigation links with paths for better routing
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Loans Services", path: "/loans" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
     { name: "Terms & Conditions", path: "/terms-and-conditions" },
+    {name:"Refund and Cancellation",path:"/refund"}
   ];
 
   return (
@@ -42,9 +42,7 @@ const Navbar = () => {
               {link.name}
             </NavLink>
           ))}
-          <button className="bg-blue-800 hover:bg-blue-950 text-white px-6 py-1.5 rounded-sm transition duration-300">
-            Apply Now
-          </button>
+
         </div>
 
         {/* Mobile Menu Button */}
@@ -76,9 +74,7 @@ const Navbar = () => {
                 {link.name}
               </NavLink>
             ))}
-            <button className="bg-blue-800 hover:bg-blue-950 text-white px-4 py-2 rounded-md transition duration-300">
-              Apply Now
-            </button>
+
           </div>
         </div>
       )}

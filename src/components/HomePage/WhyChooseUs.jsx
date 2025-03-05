@@ -102,19 +102,6 @@ const WhyChooseUsSection = () => {
         </div>
 
         {/* Growth Chart Section */}
-        <div className="mt-16 bg-white rounded-xl p-8 shadow-2xl">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-8">
-            <div>
-              <h3 className="text-2xl font-bold text-[#1a237e] mb-2">
-                Our Growth Journey
-              </h3>
-              <p className="text-gray-600">
-                Consistent growth in loan disbursement over the years.
-              </p>
-            </div>
-          </div>
-          <GrowthChart />
-        </div>
       </div>
     </section>
   );

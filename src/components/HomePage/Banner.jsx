@@ -19,14 +19,6 @@ const Banner = () => {
         <p className="text-white text-base md:text-xl mb-8 max-w-lg">
           Secure, flexible loans tailored to your needs. Start your journey towards financial freedom today.
         </p>
-        <div className="flex justify-start w-full  gap-4">
-          <button className="px-6 py-3 bg-yellow-300 hover:bg-yellow-600 font-semibold rounded transition duration-300">
-            Apply for Loan
-          </button>
-          <button className="px-6 py-3 bg-transparent border border-white hover:bg-white hover:text-black text-white font-semibold rounded transition duration-300">
-            Learn More
-          </button>
-        </div>
       </div>
     </div>
   );

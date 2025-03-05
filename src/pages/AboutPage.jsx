@@ -25,11 +25,14 @@ const AboutPage = () => {
         <Banner />
         <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 py-20 px-4 md:px-20">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-center text-[#1a237e] mb-6">
-              Welcome to SRLF
+            <h2 className="text-xl font-bold text-center text-[#1a237e]">
+              Welcome to
+            </h2>
+            <h2 className="text-xl font-bold text-center text-[#1a237e] mb-6">
+              DISHAREAI WELFARE FOUNDATION
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              SRLF is an online platform that provides customers with car loans,
+            DISHAREAI WELFARE FOUNDATION is an online platform that provides customers with car loans,
               bike loans, and all types of vehicle loans. We offer a one-stop
               shop for all requirements, be it loans, investments, or protection.
             </p>
