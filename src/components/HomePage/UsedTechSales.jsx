@@ -52,9 +52,15 @@ const UsedTechSales = () => {
               Our Services
               <div className="w-24 md:w-32 h-1 bg-yellow-400 rounded-full mx-auto mt-2"></div>
             </h1>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-lg">
-              Discover a range of services tailored to meet your needs, from affordable refurbished mobile phones to easy financing solutions.
+
+            <p className="text-gray-700 mt-4 max-w-2xl mx-auto text-lg font-semibold leading-relaxed">
+              Discover a range of services tailored to meet your needs, from affordable refurbished and new laptops and mobile phones
+              to easy financing solutions. Our services are available for underprivileged individuals poor people and communities in
+              Nadia, West Bengal (Block Karimpur-1, Villages: Jamsherpur, Arabpur, Pin: 741122).
+              <strong>We do not sell online.</strong> Please visit our office to purchase products in person.
             </p>
+
+
           </div>
 
           {/* 📱 Phone Grid */}
@@ -63,8 +69,8 @@ const UsedTechSales = () => {
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
             {mobileProducts.map((image, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="bg-white rounded-xl shadow-lg p-4 flex justify-center items-center hover:shadow-2xl transition-transform transform hover:scale-105"
               >
                 <img
