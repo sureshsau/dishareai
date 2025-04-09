@@ -26,7 +26,7 @@ const Navbar = () => {
             <span className="font-bold text-sm text-blue-800 block">
               DISHAREAI WELFARE FOUNDATION
             </span>
-            <p className="text-xs text-gray-600">CIN: U88900WB2024WB2024NPL269949</p>
+            <p className="text-xs text-gray-600">CIN: U88900WB2024NPL269949</p>
           </div>
         </div>
 
