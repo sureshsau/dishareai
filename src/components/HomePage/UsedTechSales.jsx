@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUndo, FaShieldAlt, FaTag, FaCheckCircle } from "react-icons/fa";
+import { FaUndo, FaShieldAlt, FaTag, FaCheckCircle, FaRegCreditCard } from "react-icons/fa";
 
 // Importing phone images
 import phone1 from "../../assets/image/phones/phone1.jpeg";
@@ -19,6 +19,7 @@ const UsedTechSales = () => {
     { icon: <FaShieldAlt className="text-[#ffd700] text-4xl" />, title: "1-Year Warranty", desc: "Enjoy peace of mind with our warranty." },
     { icon: <FaTag className="text-[#ffd700] text-4xl" />, title: "Best Price", desc: "Affordable pricing on all devices." },
     { icon: <FaCheckCircle className="text-[#ffd700] text-4xl" />, title: "Quality Checked", desc: "Each phone is tested & certified." },
+    { icon: <FaRegCreditCard className="text-[#ffd700] text-4xl" />, title: "Subscription Plan", desc: "Monthly plans with secure payments." },
   ];
 
   return (
@@ -30,7 +31,7 @@ const UsedTechSales = () => {
           Low Price, Best Choice
         </h2>
         <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-          Discover our collection of high-quality, pre-owned and new smartphones at unbeatable prices.
+          Discover our collection of high-quality,new smartphones at unbeatable prices.
         </p>
 
         {/* 🌟 Benefits Section */}
@@ -54,11 +55,12 @@ const UsedTechSales = () => {
             </h1>
 
             <p className="text-gray-700 mt-4 max-w-2xl mx-auto text-lg font-semibold leading-relaxed">
-              Discover a range of services tailored to meet your needs, from affordable refurbished and new laptops and mobile phones
-              to easy financing solutions. Our services are available for underprivileged individuals poor people and communities in
-              Nadia, West Bengal (Block Karimpur-1, Villages: Jamsherpur, Arabpur, Pin: 741122).
-              <strong>We do not sell online.</strong> Please visit our office to purchase products in person.
+              Dear Valued Client,<br /><br />
+              We are pleased to inform you about an exclusive opportunity to purchase a smartphone with a low down payment through our subscription plan. This offer comes with no interest and no additional charges. For more details, please contact DishareAI Welfare Foundation. We look forward to assisting you in acquiring your new device.
+              <br/>
+              <strong>Note:</strong> Our products are exclusively available at our offline store. Online purchases are not available.
             </p>
+
 
 
           </div>
