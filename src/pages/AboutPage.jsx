@@ -32,7 +32,7 @@ const AboutPage = () => {
               DISHAREAI WELFARE FOUNDATION
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-  DISHAREAI WELFARE FOUNDATION is a trusted platform that provides customers with high-quality pre-owned and refurbished mobile phones and laptops. 
+  DISHAREAI WELFARE FOUNDATION is a trusted platform that provides customers with high-quality new mobile phones and laptops. 
   We offer a reliable solution for those looking for budget-friendly technology, ensuring that all devices are thoroughly tested and certified. 
   Our goal is to make affordable technology accessible to everyone while promoting sustainability through the reuse of electronic devices.
 </p>
@@ -44,7 +44,7 @@ const AboutPage = () => {
                 { icon: FaHeadset, title: "24X7 Support", text: "Our dedicated team is available around the clock to assist you with your financial needs." },
                 
                 { icon: FaRedo, title: "Easy Repayment", text: "Flexible repayment options tailored to your financial convenience." },
-                { icon: FaLaptop, title: "Apply Online", text: "Seamless online application process from the comfort of your home." },
+                
               ].map(({ icon: Icon, title, text }, index) => (
                 <div key={index} className="flex flex-col items-center bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow">
                   <Icon className="text-4xl text-[#1a237e] mb-4" />
