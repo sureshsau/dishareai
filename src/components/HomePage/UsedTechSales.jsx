@@ -5,6 +5,7 @@ import {
   FaTag,
   FaCheckCircle,
   FaRegCreditCard,
+  FaHandsHelping,
 } from "react-icons/fa";
 
 // Importing phone images
@@ -56,32 +57,37 @@ const UsedTechSales = () => {
   ];
 
   const benefits = [
-    {
-      icon: <FaUndo className="text-[#ffd700] text-4xl" />,
-      title: "Easy Returns",
-      desc: "Hassle-free returns & exchanges.",
-    },
-    {
-      icon: <FaShieldAlt className="text-[#ffd700] text-4xl" />,
-      title: "1-Year Warranty",
-      desc: "Enjoy peace of mind with our warranty.",
-    },
-    {
-      icon: <FaTag className="text-[#ffd700] text-4xl" />,
-      title: "Best Price",
-      desc: "Affordable pricing on all devices.",
-    },
-    {
-      icon: <FaCheckCircle className="text-[#ffd700] text-4xl" />,
-      title: "Quality Checked",
-      desc: "Each phone is tested & certified.",
-    },
-    {
-      icon: <FaRegCreditCard className="text-[#ffd700] text-4xl" />,
-      title: "Subscription Plan",
-      desc: "Monthly plans with secure payments.",
-    },
-  ];
+  {
+    icon: <FaUndo className="text-[#ffd700] text-4xl" />,
+    title: "Easy Returns",
+    desc: "Hassle-free returns & exchanges.",
+  },
+  {
+    icon: <FaShieldAlt className="text-[#ffd700] text-4xl" />,
+    title: "1-Year Warranty",
+    desc: "Enjoy peace of mind with our warranty.",
+  },
+  {
+    icon: <FaTag className="text-[#ffd700] text-4xl" />,
+    title: "Best Price",
+    desc: "Affordable pricing on all devices.",
+  },
+  {
+    icon: <FaCheckCircle className="text-[#ffd700] text-4xl" />,
+    title: "Quality Checked",
+    desc: "Each phone is tested & certified.",
+  },
+  {
+    icon: <FaRegCreditCard className="text-[#ffd700] text-4xl" />,
+    title: "Subscription Plan",
+    desc: "Monthly plans with secure payments.",
+  },
+  {
+    icon: <FaHandsHelping className="text-[#ffd700] text-4xl" />,
+    title: "Purpose Driven",
+    desc: "The purpose of doing business is to help common people.",
+  },
+];
 
   const [showMore, setShowMore] = useState(Array(mobileProducts.length).fill(false));
 
