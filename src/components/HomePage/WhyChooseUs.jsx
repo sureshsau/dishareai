@@ -58,11 +58,6 @@ const WhyChooseUsSection = () => {
       desc: "24-hour processing time",
     },
     {
-      icon: <FaHandHoldingUsd className="text-3xl text-[#ffd700] mb-4" />,
-      title: "Flexible Terms",
-      desc: "Customized loan solutions",
-    },
-    {
       icon: <FaHeadset className="text-3xl text-[#ffd700] mb-4" />,
       title: "24/7 Support",
       desc: "Always here to help you",

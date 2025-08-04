@@ -72,7 +72,7 @@ const TermsPage = () => {
                     { title: "8. Termination of Services", text: "DISHAREAI WELFARE FOUNDATION reserves the right to terminate services for users who violate terms or engage in fraudulent activities." },
                     { title: "9. Limitation of Liability", text: "DISHAREAI WELFARE FOUNDATION is not liable for any damages arising from the use of its services." },
                     { title: "10. Amendments to Terms and Conditions", text: "DISHAREAI WELFARE FOUNDATION may update the terms and conditions without prior notice." },
-                    { title: "11. Governing Law and Jurisdiction", text: "The terms are governed by the laws of a specific jurisdiction, with disputes subject to the jurisdiction of its courts. Users agree to these terms upon availing of DISHAREAI WELFARE FOUNDATION's services and can contact the company for any inquiries." },
+                    { title: "11. In India", text: "The terms are governed by the laws of a specific jurisdiction, with disputes subject to the jurisdiction of its courts. Users agree to these terms upon availing of DISHAREAI WELFARE FOUNDATION's services and can contact the company for any inquiries." },
                   ].map(({ title, text }, index) => (
                     <div key={index} className="bg-gray-50 p-6 rounded-lg shadow-lg">
                       <h3 className="text-2xl font-bold text-[#1a237e] mb-4">{title}</h3>

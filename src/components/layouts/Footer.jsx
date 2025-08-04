@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
           <h1 className="text-white text-3xl font-bold">DISHAREAI WELFARE FOUNDATION</h1>
           <p className="mt-3 text-gray-400 text-sm">
-            Empowering your financial growth with secure, accessible loan solutions.
+            Empowering your financial growth with secure
           </p>
         </div>
 
