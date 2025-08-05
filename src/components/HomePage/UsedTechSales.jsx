@@ -6,9 +6,9 @@ import {
   FaCheckCircle,
   FaRegCreditCard,
   FaHandsHelping,
+  FaTruck,
 } from "react-icons/fa";
 
-// Importing phone images
 import phone1 from "../../assets/image/phones/phone1.jpg";
 import phone2 from "../../assets/image/phones/phone2.jpg";
 import phone3 from "../../assets/image/phones/phone3.jpg";
@@ -25,7 +25,7 @@ const UsedTechSales = () => {
       price: "₹34,999",
       shortDesc: "Latest Vivo flagship with premium features.",
       fullDesc:
-        "Get the VIVO V50 5G with 8GB RAM and 256GB storage at an affordable price. Comes with EMI options, no interest, and exclusive subscription plans. Enjoy priority support and warranty.",
+        "Operating System: Funtouch OS 15\nRAM: 8 GB\nCPU: Snapdragon 7 Gen3, 1.8, 2.4, 2.63 GHz\nStorage: 256 GB\nRear Camera: 50 MP + 50 MP, OIS, f/1.88, f/2.0, 4K Recording\nSelfie Camera: 50 MP Wide-Angle, AF, f/2.0\nDisplay: 6.77\" AMOLED, 387 ppi, 4500 nits\nBattery: 6000 mAh, 90W Flash Charge\nSIM: Dual Nano, 5G+5G\nSecurity: In-display fingerprint\nProcessor: Snapdragon 7 Gen3, 4nm\nCamera Modes: Photo, Portrait, Night, Dual View, etc.",
     },
     {
       image: phone2,
@@ -34,7 +34,7 @@ const UsedTechSales = () => {
       price: "₹12,999",
       shortDesc: "Powerful mid-range phone with large battery.",
       fullDesc:
-        "OPPO K13x offers great performance, excellent battery life, and a stunning display. Available with EMI and no processing fee.",
+        "Operating System: Android 15\nRAM: 6 GB\nStorage: 128 GB, Expandable up to 2 TB\nDisplay: 6.67\" HD+\nCamera: 50MP + 2MP Rear, 8MP Front\nBattery: 6000 mAh\nProcessor: Dimensity 6300",
     },
     {
       image: phone3,
@@ -43,7 +43,7 @@ const UsedTechSales = () => {
       price: "₹27,999",
       shortDesc: "High-performance smartphone with sleek design.",
       fullDesc:
-        "Enjoy a fast and smooth experience with this 8GB/256GB model. EMI options with no extra cost available.",
+        "Operating System: Android 14\nRAM: 12 GB\nProcessor: Snapdragon, 2.8 GHz\nStorage: 256 GB\nColor: Fluid Silver\nSIM: Single Nano\nConnector: USB Type-C\nSecurity: Fingerprint\nWater Resistant\nExtras: Cooling System, Fast Charging\nWarranty: 1 Year",
     },
     {
       image: phone4,
@@ -52,42 +52,47 @@ const UsedTechSales = () => {
       price: "₹8,290",
       shortDesc: "Budget-friendly phone for everyday use.",
       fullDesc:
-        "Affordable pricing with good specs. Great for students and first-time smartphone buyers. EMI plan available.",
+        "Brand: Redmi\nCustomer Rating: 3.3/5 (52 reviews)\nDimensions: 8mm Height\nWarranty: 1 Year Brand Warranty from Redmi",
     },
   ];
 
   const benefits = [
-  {
-    icon: <FaUndo className="text-[#ffd700] text-4xl" />,
-    title: "Easy Returns",
-    desc: "Hassle-free returns & exchanges.",
-  },
-  {
-    icon: <FaShieldAlt className="text-[#ffd700] text-4xl" />,
-    title: "1-Year Warranty",
-    desc: "Enjoy peace of mind with our warranty.",
-  },
-  {
-    icon: <FaTag className="text-[#ffd700] text-4xl" />,
-    title: "Best Price",
-    desc: "Affordable pricing on all devices.",
-  },
-  {
-    icon: <FaCheckCircle className="text-[#ffd700] text-4xl" />,
-    title: "Quality Checked",
-    desc: "Each phone is tested & certified.",
-  },
-  {
-    icon: <FaRegCreditCard className="text-[#ffd700] text-4xl" />,
-    title: "Subscription Plan",
-    desc: "Monthly plans with secure payments.",
-  },
-  {
-    icon: <FaHandsHelping className="text-[#ffd700] text-4xl" />,
-    title: "Purpose Driven",
-    desc: "The purpose of doing business is to help common people.",
-  },
-];
+    {
+      icon: <FaUndo className="text-[#ffd700] text-4xl" />,
+      title: "Easy Returns",
+      desc: "Hassle-free returns & exchanges.",
+    },
+    {
+      icon: <FaShieldAlt className="text-[#ffd700] text-4xl" />,
+      title: "1-Year Warranty",
+      desc: "Enjoy peace of mind with our warranty.",
+    },
+    {
+      icon: <FaTag className="text-[#ffd700] text-4xl" />,
+      title: "Best Price",
+      desc: "Affordable pricing on all devices.",
+    },
+    {
+      icon: <FaCheckCircle className="text-[#ffd700] text-4xl" />,
+      title: "Quality Checked",
+      desc: "Each phone is tested & certified.",
+    },
+    {
+      icon: <FaRegCreditCard className="text-[#ffd700] text-4xl" />,
+      title: "Subscription Plan",
+      desc: "Monthly plans with secure payments.",
+    },
+    {
+      icon: <FaHandsHelping className="text-[#ffd700] text-4xl" />,
+      title: "Purpose Driven",
+      desc: "The purpose of doing business is to help common people.",
+    },
+    {
+      icon: <FaTruck className="text-[#ffd700] text-4xl" />,
+      title: "Shipping Policy",
+      desc: "Same day delivery available.",
+    },
+  ];
 
   const [showMore, setShowMore] = useState(Array(mobileProducts.length).fill(false));
 
@@ -107,6 +112,7 @@ const UsedTechSales = () => {
           Discover our collection of high-quality, new smartphones at unbeatable prices.
         </p>
 
+        {/* Benefits */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           {benefits.map((benefit, index) => (
             <div
@@ -120,6 +126,7 @@ const UsedTechSales = () => {
           ))}
         </div>
 
+        {/* Service Info */}
         <div className="text-center my-12">
           <h1 className="text-4xl md:text-5xl font-bold text-[#1a237e] relative inline-block">
             Our Services
@@ -127,33 +134,45 @@ const UsedTechSales = () => {
           </h1>
           <p className="text-gray-700 mt-4 max-w-2xl mx-auto text-lg font-semibold leading-relaxed">
             Dear Valued Client,<br />
-            We are pleased to inform you about an exclusive opportunity to purchase a smartphone with a low down payment through our subscription plan. This offer comes with no interest and no additional charges. For more details, please contact DishareAI Welfare Foundation.
+            We are pleased to inform you about an exclusive opportunity to purchase a smartphone
+            with a low down payment through our subscription plan. This offer comes with no interest
+            and no additional charges. For more details, please contact DishareAI Welfare Foundation.
             <br />
-            <strong>Note:</strong> Our products are exclusively available at our offline store. Online purchases are not available.
+            <strong>Note:</strong> Our products are exclusively available at our offline store. Online
+            purchases are not available.
           </p>
         </div>
 
         <MobileSubscriptionPlan />
 
+        {/* Phone Grid */}
         <h3 className="text-3xl font-semibold text-[#1a237e] mb-6">Available Mobile Phones</h3>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {mobileProducts.map((product, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg p-4 hover:shadow-2xl transition-transform transform hover:scale-105"
+              className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-5 shadow-xl hover:shadow-2xl transition-transform transform hover:scale-105 text-left"
             >
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-full h-64 object-contain rounded-md border border-gray-200 bg-white"
+                className="w-full h-60 object-contain mb-4"
               />
-              <div className="mt-4 text-center">
-                <h3 className="text-lg font-bold text-gray-800">{product.name}</h3>
-                <p className="text-sm text-gray-600">{product.specs}</p>
-                <p className="text-md font-semibold text-[#1a237e]">{product.price}</p>
-                <p className="text-sm text-gray-600 mt-2">
-                  {showMore[index] ? product.fullDesc : product.shortDesc}
-                </p>
+              <h3 className="text-xl font-bold text-[#1a237e]">{product.name}</h3>
+              <p className="text-sm text-gray-600">{product.specs}</p>
+              <p className="text-lg font-bold text-[#1a237e]">{product.price}</p>
+
+              {/* Description */}
+              <div className="text-sm text-gray-700 mt-3">
+                {showMore[index] ? (
+                  <ul className="list-disc list-inside space-y-1 text-left">
+                    {product.fullDesc.split("\n").map((point, i) => (
+                      <li key={i}>{point}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{product.shortDesc}</p>
+                )}
                 <button
                   onClick={() => toggleReadMore(index)}
                   className="mt-2 text-sm text-blue-600 hover:underline"
