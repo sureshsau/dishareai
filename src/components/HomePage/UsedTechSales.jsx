@@ -90,7 +90,7 @@ const UsedTechSales = () => {
     {
       icon: <FaTruck className="text-[#ffd700] text-4xl" />,
       title: "Shipping Policy",
-      desc: "Same day delivery available.",
+      desc: "Same day delivery.",
     },
   ];
 
